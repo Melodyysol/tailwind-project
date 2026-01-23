@@ -449,6 +449,11 @@
       scale: var(--tw-scale-x) var(--tw-scale-y);
     }
   }
+  .min-\[318px\]\:w-80 {
+    @media (width >= 318px) {
+      width: calc(var(--spacing) * 80);
+    }
+  }
   .min-md\:w-2\.5 {
     @media (width >= 48rem) {
       width: calc(var(--spacing) * 2.5);
