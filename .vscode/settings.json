@@ -1,0 +1,10 @@
+{
+  "liveServer.settings.port": 5501,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "github.copilot.enable": {
+    "*": true
+  },
+  "editor.inlineSuggest.enabled": true
+}
