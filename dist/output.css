@@ -218,8 +218,14 @@
   .mb-3 {
     margin-bottom: calc(var(--spacing) * 3);
   }
+  .contents {
+    display: contents;
+  }
   .flex {
     display: flex;
+  }
+  .table {
+    display: table;
   }
   .h-1\/2 {
     height: calc(1/2 * 100%);
@@ -461,6 +467,10 @@
   .text-white {
     color: var(--color-white);
   }
+  .outline {
+    outline-style: var(--tw-outline-style);
+    outline-width: 1px;
+  }
   .hover\:bg-blue-700 {
     &:hover {
       @media (hover: hover) {
@@ -636,6 +646,11 @@
   syntax: "*";
   inherits: false;
 }
+@property --tw-outline-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
+}
 @property --tw-scale-x {
   syntax: "*";
   inherits: false;
@@ -656,6 +671,7 @@
     *, ::before, ::after, ::backdrop {
       --tw-border-style: solid;
       --tw-font-weight: initial;
+      --tw-outline-style: solid;
       --tw-scale-x: 1;
       --tw-scale-y: 1;
       --tw-scale-z: 1;
