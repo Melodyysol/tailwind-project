@@ -24,8 +24,8 @@ This is a solution to my [QR code component challenge on Frontend Mentor](https:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Melodyysol/tailwind-project)
-- Live Site URL: [Add live site URL here](https://melodyysol.github.io/tailwind-project/)
+- Solution URL: [solution URL here](https://github.com/Melodyysol/tailwind-project)
+- Live Site URL: [live site URL here](https://melodyysol.github.io/tailwind-project/)
 
 ## My process
 
